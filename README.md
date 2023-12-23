@@ -12,7 +12,26 @@
 - `STRING` Your session string, you can get it at [gist](https://gist.github.com/bipinkrish/0940b30ed66a5537ae1b5aaaee716897#file-main-py) and run it locally
 
 ---
+# Setup Locally:
+1. Create and activate python virtual environment
 
+    ```bash
+    python -m venv venv
+    source venv/bin/activate # linux
+    venv/Scripts/activate # windows
+    ```
+2. Install dependencies
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Edit Config
+4. Run
+
+    ```bash
+    python main.py
+    ```
+    
 # Usage
 
 __FOR PUBLIC CHATS__
